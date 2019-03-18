@@ -17,7 +17,7 @@
 
 <div class="wrapper">
     <header>
-        <div class="header-main">
+        <div class="header-fixed">
             <div class="container">
                 <div class="row">
                     <div class="header-top">
@@ -29,20 +29,12 @@
                             </div>
                             <a href="index.html">
                                 <div class="logo-text">
-                                    <h2>Восточно-Казахстанское областное учреждение
-                                        по охране историко-культурного наследия
-                                    </h2>
+                                    <h2>Восточно-Казахстанское областное учреждение </h2>
+                                    <span>по охране историко-культурного наследия</span>
                                 </div>
                             </a>
                         </div>
                         <div class="header-mobile">
-                            <div class="navbar-header visible-xs">
-                                <button type="button" class="navbar-toggle call-menu">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
                             <div class="header-side">
                                 <div class="lang-box">
                                     <ul class="lang-link">
@@ -51,8 +43,15 @@
                                     </ul>
                                 </div>
                             </div>
+                            <div class="navbar-header hidden-lg">
+                                <button type="button" class="navbar-toggle call-menu">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
                         </div>
-                        <div class="bg-header"><img src="img/main/header.png" alt=""></div>
+                        <div class="bg-header"><img src="img/main/header-fix.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -60,7 +59,7 @@
     </header>
     <nav>
         <div class="nav-side">
-            <div class="nav-mobile visible-xs">
+            <div class="nav-mobile hidden-lg">
                 <div class="nav-top">
                     <div class="logo-cover">
                         <div class="logo-top">
@@ -76,12 +75,12 @@
                             </div>
                         </a>
                     </div>
-                    <button class="btn-plain close-menu"><img src="img/icon/close-button.png" alt=""></button>
+                    <button class="btn-plain close-menu"><img src="img/icon/close.png" alt=""></button>
                 </div>
             </div>
             <div class="search-box">
                 <form action="#" method="post" class="search-form">
-                    <input type="text" placeholder="Поиск по сайту">
+                    <input type="text" placeholder="Поиск по сайту" class="main-input">
                 </form>
             </div>
             <ul class="m-menu">
@@ -102,16 +101,13 @@
             </ul>
             <div class="info-cover">
                 <div class="info-cover-item">
-                    <i class="icon i-post"></i>
+                    <i class="icon i-post-white"></i>
                     <span>vko-nasledie@mail.ru</span>
                 </div>
                 <div class="info-cover-item">
-                    <i class="icon i-phone"></i>
+                    <i class="icon i-phone-white"></i>
                     <a href="tel: 8 7232 53-63-11">8 7232 53-63-11</a>
                 </div>
-            </div>
-            <div class="ornament-side">
-                <img src="img/main/ornament.png" alt="">
             </div>
         </div>
     </nav>
