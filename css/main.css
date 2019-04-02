@@ -3022,7 +3022,17 @@ table {
   width: 24px;
   height: 24px;
 }
-
+.result-list{
+  margin-bottom: 40px;
+}
+.result-list li a{
+  display: inline-block;
+  margin-bottom: 12px;
+  color: black;
+}
+.search-in{
+  padding: 40px 0;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .wrapper {
     width: auto;
